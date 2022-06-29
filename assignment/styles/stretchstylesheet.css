@@ -1,0 +1,23 @@
+/* STRETCH GOAL: Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`. That is a good thing to add to every CSS file, and it should use the `body` HTML tag name.*/
+body {
+    margin: 0;
+}
+
+#header {
+    background-color: darkorchid;
+    color: #F1E4F8;
+    text-align: center;
+}
+
+#main {
+    background-color: lightgray;
+    padding: 1em;
+}
+
+#background {
+    background-image: url('../record.png');
+    background-repeat: round;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

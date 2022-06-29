@@ -1,4 +1,3 @@
-
 /* Give the `header` a dark background color and choose a light color for the text. */
 /* Center the text in the `header`. */
 header {
@@ -18,7 +17,7 @@ main {
 /* Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image. */
 /* Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) */
 body {
-    background-image: url('./record.png');
-    background-repeat: repeat-x;
+    background-image: url('../record.png');
+    background-repeat: repeat-round;
     margin: 0;
 }
